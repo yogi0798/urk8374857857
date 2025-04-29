@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bank Dashboard</title>
+<style>
+body {
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f4f6f8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	background: #ffffff;
+	padding: 40px;
+	border-radius: 15px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	width: 350px;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 30px;
+	color: #333;
+}
+
+.link-button {
+	display: block;
+	margin: 15px 0;
+	padding: 12px 20px;
+	background-color: #007bff;
+	color: white;
+	text-decoration: none;
+	border-radius: 8px;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+	background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Bank Dashboard</h1>
+		<a href="withdraw.html" class="link-button">Withdrawal</a> <a
+			href="deposit.html" class="link-button">Deposit</a> <a
+			href="balance.html" class="link-button">Bank Balance</a> <a
+			href="transaction.html" class="link-button">Transaction History</a>
+	</div>
+</body>
+</html>

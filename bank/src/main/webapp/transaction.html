@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Deposit Amount</title>
+<style>
+body {
+	font-family: Arial, sans-serif;
+	background: #f4f4f4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.form-container {
+	background: #fff;
+	padding: 30px 40px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 400px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 25px;
+	color: #333;
+}
+
+input[type="number"], input[type="submit"] {
+	width: 100%;
+	padding: 12px 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	background-color: #28a745;
+	color: white;
+	font-weight: bold;
+	border: none;
+	transition: background-color 0.3s ease;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #218838;
+}
+
+input::placeholder {
+	color: #999;
+}
+</style>
+</head>
+<body>
+	<div class="form-container">
+		<h2>transactionhistroy</h2>
+		<form action="transactionhistroy" method="post">
+			<input type="number" placeholder="Enter your account number"
+				name="accnum" required> <input type="submit" value="Deposit">
+		</form>
+	</div>
+</body>
+</html>
